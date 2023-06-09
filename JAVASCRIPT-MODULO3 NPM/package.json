@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "hello-world-npm": "^1.1.1",
+    "lodash": "^4.17.21"
+  },
+  "name": "modulo-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    ,"babel": "babel src --out-dir dist --presets=@babel/presets-env"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5"
+  }
+}
